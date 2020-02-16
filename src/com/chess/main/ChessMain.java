@@ -1,6 +1,10 @@
-package com.chess.model;
+package com.chess.main;
 
 import javax.swing.*;
+
+import com.chess.model.King;
+import com.chess.model.Piece;
+import com.chess.ui.BoardUI;
 
 
 public class ChessMain {

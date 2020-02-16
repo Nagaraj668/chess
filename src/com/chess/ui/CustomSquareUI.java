@@ -1,16 +1,21 @@
-package com.chess.model;
+package com.chess.ui;
 
 import javax.swing.*;
+
+import com.chess.model.Board;
+import com.chess.model.Piece;
+import com.chess.model.Square;
+
 import java.awt.image.*;
 import java.awt.*;
 
 public class CustomSquareUI extends JButton {
 
-	private static final String RESOURCES_PATH = "resources/";
+	private static final String RESOURCES_PATH = "D:\\Projects\\eclipse-workspace\\Chess\\resources\\";
 	private static final String WHITE = "WHITE";
 	private static final String BLACK = "BLACK";
-	private static final String WHITE_ICONS_PATH = "white_pieces/";
-	private static final String BLACK_ICONS_PATH  = "black_pieces/";
+	private static final String WHITE_ICONS_PATH = "white_pieces\\";
+	private static final String BLACK_ICONS_PATH  = "black_pieces\\";
 	private String iconPath;
 	private Square square;
 	private Color previousColor;
